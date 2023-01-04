@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width:80%;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="header_logo">
+                <div class="candidates_label">
+                    <p>Лица</p> 
+                    <img src="candidates_lable.svg" alt="label"> 
+                    <p>Кандидаты</p>
+                </div>
+                <nav>
+                    <a href="#">Найти кандидата</a>
+                    <a href="#">Попасть в базу</a>
+                    <a href="#">О сервисе</a>
+                    <a href="#">Портал</a>
+                </nav>
+            </div>
+            <div class="header_search">
+                <div class="main_search">
+                    <input type="text" name="text" class="search" placeholder="Поиск">
+                    <button class="search_button" type="submit"> <img src="search.svg" alt="Search"></button>
+                </div>
+               
+
+            </div>
+            <div class="dropdown">
+                <div class="dropdown_img">
+                    <a href="#profile_popup" class="profile_name">Иннокентий</a>
+                    <a class="innokentii" href="#"><img src="icon.svg" alt="icon"></a> 
+                </div>
+                <div class="dropdown-content">
+                <a href="#">Посмотреть профиль</a>
+                <a href="#">Выйти</a>
+                </div>
+            </div>
+            
+           
+        </header>
+    </div>
+
+    <!-- <div class="container">
+        <h2>Заголовок</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, veritatis consectetur! Aliquam iste cum eligendi architecto autem excepturi provident explicabo. Doloribus eum quam perspiciatis hic repudiandae quis eos vero delectus?</p>
+    </div> -->
+</body>
+</html>
